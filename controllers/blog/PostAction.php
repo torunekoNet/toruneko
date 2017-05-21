@@ -63,7 +63,7 @@ class PostAction extends Action
             'link' => new RedArrayDataProvider(Setting::model()->getFriendLink()),
             'comment' => new RedArrayDataProvider($comment),
             'pager' => $pager,
-//            'model' => $model,
+            'model' => $model,
         ));
     }
 }
