@@ -51,6 +51,10 @@ return array(
             'charset' => 'utf8',
         ),
 
+        'session' => array(
+            'class' => 'CCacheHttpSession',
+        ),
+
         'cache' => array(
             'class' => 'CRedisCache',
             'hostname' => '127.0.0.1',
