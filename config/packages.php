@@ -138,13 +138,9 @@ return array(
         'depends' => array('bootstrap', 'moment'),
         'baseUrl' => 'http://assets.toruneko.net/datetimepicker',
     ),
-    'index' => array(
+    'blog' => array(
+        'js' => array('blog.js'),
+        'css' => array('blog.css'),
         'baseUrl' => 'http://assets.toruneko.net/main',
-        'depends' => array('bootstrap'),
-        'css' => array('index.css'),
-    ),
-    'echarts' => array(
-        'js' => array('echarts-all.js'),
-        'baseUrl' => 'http://cdn.bootcss.com/echarts/2.2.3'
     ),
 );
