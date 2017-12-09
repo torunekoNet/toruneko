@@ -56,9 +56,4 @@ class IndexController extends Controller
         $content = file_get_contents("php://input");
         Yii::log($hedaer . "\n" . $content, CLogger::LEVEL_ERROR);
     }
-
-    public function actionBaecheck()
-    {
-        Yii::app()->end();
-    }
 }

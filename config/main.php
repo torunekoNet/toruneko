@@ -38,7 +38,6 @@ return array(
                 array('blog/captcha', 'pattern' => 'captcha'),
                 array('blog/rss', 'pattern' => 'rss'),
                 array('index/error', 'pattern' => 'error'),
-                array('index/baecheck', 'pattern' => 'baecheck'),
             ),
         ),
 
